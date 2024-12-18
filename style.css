@@ -182,6 +182,7 @@ nav {
   justify-content: center;
   align-items: center;
   position: relative;
+  background-position: center;
 }
 
 .cover-overlay {
@@ -230,9 +231,9 @@ nav {
 }
 
 #profile {
-  height: 100vh;
+  height: 130vh;
   background-color: pink;
-  background-image: url(assets/images/gamabar1.jpeg);
+  background-image: url(assets/images/fairyytalee10.jpeg);
 }
 
 /* Profile Section */
@@ -285,13 +286,13 @@ nav {
   border-radius: 10px;
 }
 
-/* Event Section */
 .events {
   background-color: #f9f9f9;
   padding: 50px 20px;
   text-align: center;
-   background-image: url(assets/images/gamabar1.jpeg);
+   background-image: url(assets/images/fairytalee11.jpeg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .events h3 {
@@ -355,7 +356,7 @@ nav {
   padding: 50px 0;
   background-color: #f4f4f4;
   text-align: center;
-  background-color: rgb(243, 167, 159);
+  background-image: url(assets/images/fairytalee14.jpeg)
 }
 
 .gallery h3 {
@@ -400,19 +401,18 @@ nav {
   border-radius: 10px;
 }
 
-.perii {
+.i {
   display: flex;
   justify-content: flex-end;
-}
-.perii img {
-  width: 20vh;
 }
  
 .story {
   text-align: center;
   padding: 50px 20px;
-   background-image: url(assets/images/gamabar1.jpeg);
+   background-image: url(assets/images/fairyyytalee6.jpeg);
   color: #333;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .story h3 {
@@ -475,25 +475,24 @@ nav {
 .fairytale-special-guests {
   margin-top: 30px;
   padding: 20px;
-  background-color: #fff0f5;
+  background-color: #fcf3f6;
   border-radius: 10px;
-  border: 2px solid #a678b4;
+  border: 2px solid #f9b7d7;
   max-width: 800px;
-  margin: 30px auto;
+  margin: 5px auto;
   box-sizing: border-box; 
   width: 100%; 
 }
 
 .fairytale-special-guests h2 {
   font-size: 2em;
-  color: #b68edc;
+  color: #f5c2ec;
   text-align: center;
   margin-bottom: 20px;
   box-sizing: border-box; 
 }
 
 .fairytale-invitation-table {
-  display: table;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box; 
@@ -506,7 +505,7 @@ nav {
 .fairytale-guest-title, .fairytale-guest-name {
   display: table-cell;
   padding: 15px;
-  border: 1px solid #d6b5e2;
+  border: 1px solid #f7b0e6;
   font-size: 1.1em;
   text-align: center;
   box-sizing: border-box; 
@@ -515,14 +514,14 @@ nav {
 /* Lebar konten disesuaikan di layar kecil */
 .fairytale-guest-title {
   font-weight: bold;
-  color: #5a3d8a;
+  color: #f4a8dc;
   background-color: #e5c8f3;
-  width: 30%;
+  width: 30%; 
 }
 
 .fairytale-guest-name {
   background-color: #f8e8ff;
-  color: #b598c9;
+  color: #f0a0ce;
   width: 70%;
 }
 
@@ -555,7 +554,7 @@ nav {
   .fairytale-guest-title, .fairytale-guest-name {
       display: block;
       text-align: left;
-      width: 100%;
+      width: 175%;
       padding: 10px;
       font-size: 0.9em;
       box-sizing: border-box; 
@@ -563,15 +562,15 @@ nav {
 
   .fairytale-guest-title {
       font-weight: bold;
-      background-color: #e5c8f3;
-      color: #5a3d8a;
+      background-color: #edafcb;
+      color: #f5c2ec;
       font-size: 1.1em;
       text-align: left;
       margin-bottom: 5px;
   }
 
   .fairytale-guest-name {
-      background-color: #f8e8ff;
+      background-color: #ffdeee;
       color: #4b0082;
       padding-left: 20px;
   }
@@ -589,15 +588,16 @@ nav {
   padding: 12px 15px;
   border-bottom: 2px solid lightcoral;
   color: #333;
-  background-color: #fff;
+  background-color: #f8c3e0;
 }
 #rsvp {
   text-align: center;
-  margin: 15px;
+  margin: 0px;
+  background-color: pink;
 }
 form input,
 form button {
-  display: block;
+  display: inline;
   width: 100%;
   margin-bottom: 20px;
   padding: 10px;
@@ -616,7 +616,7 @@ form button:hover {
 /* Pesan Section */
 .pesan {
   padding: 50px 20px;
-  background-color: #faf4f4;
+  background-color: #f1d0dd;
   text-align: center;
   color: #333;
 }
@@ -655,7 +655,7 @@ form button:hover {
 }
 
 .btn {
-  background-color: #e797d5;  
+  background-color: #e190ba;  
   color: white;
   border: none;
   padding: 10px 20px;
@@ -666,7 +666,7 @@ form button:hover {
 }
 
 .btn:hover {
-  background-color: #d585c8;  
+  background-color: #f8d2f2;  
 }
 
 .location-info p {
@@ -687,7 +687,7 @@ form button:hover {
   font-size: 1.2rem;
   margin-bottom: 10px;
   font-family: "Great Vibes", cursive;
-  color: #e797d5;  
+  color: #252325; 
 }
 
 textarea {
@@ -708,20 +708,22 @@ textarea:focus {
 /* thank you */
 .thank-you {
   background-color: #f4f4f4;
-  padding: 100px;
+  padding: 81px;
   height: 100vh;
-  background-image: url(assets/images/luv.jpeg);
+  background-image: url(assets/images/fairyytale9.jpeg);
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  margin-top: 10%;
 }
 
 .thank-you h3 {
   font-size: 36px;
   text-align: center;
   margin-top: 35vh;
+  color: #ffff;
+  text-shadow: 1px 1px black;
 }
 
 /* Responsive Styles */
@@ -867,6 +869,7 @@ button:hover {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   justify-items: center;
+  align-items: center;
 }
 
 .profile-content div {
@@ -964,7 +967,7 @@ button:hover {
 
 /* Style pada Form RSVP */
 form input {
-  width: 10%;
+  width: 25%;
   padding: 12px;
   font-size: 1rem;
   border-radius: 5px;

@@ -28,3 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+function copy() {
+  navigator.clipboard.writeText("444-444-444");
+  alert("copied");
+}
